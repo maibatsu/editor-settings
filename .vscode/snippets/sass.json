@@ -20,7 +20,7 @@
 			"// copyright   Copyright (c) 2016, Andrei Orlov",
 			"// license     http://mad-web.ru/license"
 		]
-	}
+	},
 	
 	"media queries": {
 		"prefix": "mq",

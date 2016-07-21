@@ -1,12 +1,18 @@
 // Place your settings in this file to overwrite the default settings
 {
     // Editor configuration
+    
+    /*Linux fonts*/
+    // "editor.fontFamily": "Roboto Mono",
+    // "editor.fontFamily": "Droid Sans Mono",
+    // "editor.fontFamily": "Source Code Pro",
 
     "editor.fontFamily": "consolas",
     "editor.fontSize": 14,
     "editor.formatOnType": true,
     "editor.glyphMargin": false,
     "editor.renderWhitespace": true,
+    "editor.renderIndentGuides": true,
 
     // HTML configuration
 
