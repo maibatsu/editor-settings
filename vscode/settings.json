@@ -1,23 +1,18 @@
-// Place your settings in this file to overwrite the default settings
+// Поместите параметры в этот файл, чтобы перезаписать параметры по умолчанию.
 {
     // Editor configuration
-
+    
     /*Linux fonts*/
     // "editor.fontFamily": "Roboto Mono",
     // "editor.fontFamily": "Droid Sans Mono",
-    // "editor.fontFamily": "consolas",
-
-
     // "editor.fontFamily": "Source Code Pro",
+
+    // "editor.fontFamily": "consolas",
     "editor.fontSize": 13,
-    "editor.formatOnType": true, 
+    "editor.formatOnType": true,
     "editor.glyphMargin": false,
     "editor.renderWhitespace": true,
     "editor.renderIndentGuides": true,
-    // "editor.wordWrap": true,
-
-    // Workbench
-    "workbench.quickOpen.closeOnFocusLost": false,
 
     // HTML configuration
 
