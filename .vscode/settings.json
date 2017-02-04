@@ -1,23 +1,22 @@
 // Place your settings in this file to overwrite the default settings
 {
     // Editor configuration
-
+    
     /*Linux fonts*/
     // "editor.fontFamily": "Roboto Mono",
     // "editor.fontFamily": "Droid Sans Mono",
-    // "editor.fontFamily": "consolas",
-
-
     // "editor.fontFamily": "Source Code Pro",
-    "editor.fontSize": 13,
-    "editor.formatOnType": true, 
-    "editor.glyphMargin": false,
-    "editor.renderWhitespace": true,
-    "editor.renderIndentGuides": true,
-    // "editor.wordWrap": true,
 
-    // Workbench
-    "workbench.quickOpen.closeOnFocusLost": false,
+    // "editor.fontFamily": "consolas",
+    "editor.fontSize": 13,
+    "editor.formatOnType": true,
+    "editor.glyphMargin": false,
+    "editor.renderWhitespace": 'boundry',
+    "editor.renderIndentGuides": true,
+    "editor.detectIndentation": false,
+
+    // Window
+    "window.newWindowDimensions": "maximized",
 
     // HTML configuration
 
@@ -25,9 +24,9 @@
 
     // Sass configuration
 
-    "sass.lint.duplicateProperties": "warning",
-    "sass.lint.important": "warning",
-    "sass.lint.zeroUnits": "warning",
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.important": "warning",
+    "scss.lint.zeroUnits": "warning",
 
     // CSS configuration
 
