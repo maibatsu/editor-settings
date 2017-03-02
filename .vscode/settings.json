@@ -16,7 +16,7 @@
 
     // Workbench
     "workbench.colorTheme": "Default Light+",
-    "workbench.iconTheme": "vs-minimal",
+    "workbench.iconTheme": "vs-seti",
 
     // Window
     "window.newWindowDimensions": "maximized",
