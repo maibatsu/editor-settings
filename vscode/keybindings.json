@@ -1,26 +1,22 @@
 // Поместите настраиваемые сочетания клавиш в этот файл, чтобы перезаписать клавиши по умолчанию.
 [
     {
-        "key": "shift+alt+up",
-        "command": "editor.action.copyLinesUpAction",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "shift+alt+down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus"
     },
     {
         "key": "shift+alt+f",
-        "command": "csscomb.processEditor",
+        "command": "csscomb.execute",
         "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+u",
-        "command": "workbench.action.output.toggleOutput"
     },
     {
         "key": "ctrl+shift+alt+t",
         "command": "workbench.action.tasks.terminate"
+    },
+    {
+        "key": "tab",
+        "command": "editor.emmet.action.expandAbbreviation",
+        "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly && !editorTabMovesFocus"
     }
 ]

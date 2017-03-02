@@ -17,11 +17,10 @@
 		"prefix": "atr",
 		"body": [
 			"// author      Andrei Orlov <andyorlov@ya.ru>",
-			"// copyright   Copyright © 2016, Andrei Orlov",
-			"// license     http://mad-web.ru/license"
+			"// copyright   Copyright (c) 2017, Andrei Orlov",
+			"// license     http://andyorlov.ru"
 		]
 	},
-
 	"media queries": {
 		"prefix": "mq",
 		"body": [

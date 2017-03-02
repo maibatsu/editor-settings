@@ -1,47 +1,43 @@
 // Place your settings in this file to overwrite the default settings
 {
     // Editor configuration
-    
-    /*Linux fonts*/
-    // "editor.fontFamily": "Roboto Mono",
-    // "editor.fontFamily": "Droid Sans Mono",
-    // "editor.fontFamily": "Source Code Pro",
-
-    // "editor.fontFamily": "consolas",
     "editor.fontSize": 13,
-    "editor.formatOnType": true,
+    "editor.wordWrap": "on",
     "editor.glyphMargin": false,
-    "editor.renderWhitespace": 'boundry',
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": true,
+    // "editor.detectIndentation": false,
     "editor.renderIndentGuides": true,
-    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "boundary",
+
+    // Explorer
     "explorer.autoReveal": false,
 
+    // Workbench
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "vs-minimal",
 
     // Window
     "window.newWindowDimensions": "maximized",
 
     // HTML configuration
-
     "html.format.indentInnerHtml": true,
 
     // Sass configuration
-
     "scss.lint.duplicateProperties": "warning",
     "scss.lint.important": "warning",
     "scss.lint.zeroUnits": "warning",
 
     // CSS configuration
-
     "css.lint.important": "warning",
     "css.lint.duplicateProperties": "warning",
 
     // PHP configuration
-
     "php.validate.run": "onType",
     // "php.validate.executablePath": "C:/OpenServer/modules/php/PHP-5.6/php.exe",
 
     // Plugin configuration
-
     "csscomb.preset": {
         "remove-empty-rulesets": true,
         "always-semicolon": true,
@@ -73,7 +69,6 @@
             "right",
             "bottom",
             "left",
-
             "display",
             "visibility",
             "float",
@@ -90,7 +85,6 @@
             "flex-order",
             "flex-pack",
             "flex-align",
-
             "-webkit-box-sizing",
             "-moz-box-sizing",
             "box-sizing",
@@ -110,7 +104,6 @@
             "padding-right",
             "padding-bottom",
             "padding-left",
-
             "table-layout",
             "empty-cells",
             "caption-side",
@@ -120,7 +113,6 @@
             "list-style-position",
             "list-style-type",
             "list-style-image",
-
             "content",
             "quotes",
             "counter-reset",
@@ -253,7 +245,6 @@
             "-moz-hyphens",
             "hyphens",
             "pointer-events",
-
             "opacity",
             "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
             "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
@@ -359,7 +350,6 @@
             "filter:progid:DXImageTransform.Microsoft.gradient",
             "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
             "text-shadow",
-
             "font",
             "font-family",
             "font-size",
