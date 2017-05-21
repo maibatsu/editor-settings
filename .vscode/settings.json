@@ -5,9 +5,7 @@
     "editor.wordWrap": "on",
     "editor.glyphMargin": false,
     "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
-    "editor.minimap.enabled": true,
-    // "editor.detectIndentation": false,
+    // "editor.minimap.enabled": true,
     "editor.renderIndentGuides": true,
     "editor.renderWhitespace": "boundary",
 
@@ -35,7 +33,6 @@
 
     // PHP configuration
     "php.validate.run": "onType",
-    // "php.validate.executablePath": "C:/OpenServer/modules/php/PHP-5.6/php.exe",
 
     // Plugin configuration
     "csscomb.preset": {
