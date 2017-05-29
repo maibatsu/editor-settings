@@ -7,7 +7,7 @@
     },
     {
         "key": "shift+alt+f",
-        "command": "csscomb.execute",
+        "command": "stylefmt.execute",
         "when": "editorTextFocus"
     },
     {

@@ -5,7 +5,7 @@
     "editor.wordWrap": "on",
     "editor.glyphMargin": false,
     "editor.formatOnType": true,
-    // "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.renderIndentGuides": true,
     "editor.renderWhitespace": "boundary",
 
@@ -17,6 +17,7 @@
     "workbench.iconTheme": "vs-seti",
 
     // Window
+    "window.zoomLevel": 0,
     "window.newWindowDimensions": "maximized",
 
     // HTML configuration
@@ -26,15 +27,38 @@
     "scss.lint.duplicateProperties": "warning",
     "scss.lint.important": "warning",
     "scss.lint.zeroUnits": "warning",
+    "scss.validate": false,
+    /* for Stylelint plugin */
 
     // CSS configuration
     "css.lint.important": "warning",
     "css.lint.duplicateProperties": "warning",
+    "css.validate": false,
+    /* for Stylelint plugin */
 
     // PHP configuration
     "php.validate.run": "onType",
 
+    // Git
+    "git.confirmSync": false,
+
+    // Language specific
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+
     // Plugin configuration
+
+    // Stylelint
+    "stylelint.enable": true,
+    "stylelint.configOverrides": {
+        "ignoreFiles": "./build/css/*.css"
+    },
+
+    // cssComb
     "csscomb.preset": {
         "remove-empty-rulesets": true,
         "always-semicolon": true,
